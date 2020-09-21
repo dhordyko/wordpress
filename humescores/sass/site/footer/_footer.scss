@@ -1,0 +1,155 @@
+.site-footer {
+    width: 100%;
+    height: 800px;
+    background: url(/wordpress/wp-content/themes/humescores/assets/img/floor-new.jpg) center no-repeat fixed;
+    position: absolute;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+    .contact-container {
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        min-height: 270px;
+        height: 810px;
+        margin: 0 auto;
+        width: 95%;
+        background: #fff;
+        flex-wrap: wrap;
+        display: flex;
+        top: -90px;
+        position: absolute;
+
+
+        &-col1 {
+            width: 60%;
+            background: #bc201e;
+
+
+            .contact-mail {
+           background:#fff;
+                width: 100%;
+                display: inline-block;
+                height: 40%;
+
+                padding: 80px;
+
+                & h1 {
+                    position: absolute;
+                    top: 50px;
+                }
+
+                .mail {
+                    background: transparent;
+                    border-bottom: black;
+                    border: none;
+                    font-size: 20px;
+                    font-family: $font__style;
+                    color: #ad8b8b;
+
+
+                }
+
+
+
+                .mail-horizontal-line {
+                    background-color: black;
+                    width: 500px;
+                    float: left;
+                    margin-top: -10px;
+                    font-weight: 800;
+                    height: 1px;
+                }
+
+                .submit-btn {
+                    margin-left: 50px;
+
+                    background-color: #bc201e;
+                    box-shadow: none;
+                    border-radius: 0px;
+                    border: none;
+                    color: #fff;
+
+                    display: inline-block;
+                    padding: 11px 55px;
+
+                    margin-right: -40px;
+                    margin-top: 30px;
+                    font-family: 'PT Serif',
+                        serif;
+                    font-size: 14px;
+                    border: 2px solid #bc201e;
+                    font-weight: 400;
+                    letter-spacing: .28px;
+                    float: right;
+
+                }
+
+            }
+
+            .contact-form {
+
+                background: #bc201e;
+                position: absolute;
+                display: flex;
+
+                width: inherit;
+                height: 550px;
+
+                &-address,
+                &-picture {
+                    width: 50%;
+                }
+
+                &-address {
+                    background: #bc201e;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    color: #fff;
+                    font-family: 'PT Serif',
+                        serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    padding: 50px;
+
+                    .pin-image {
+                        width: 50px;
+                        margin: 0 auto;
+                    }
+                }
+
+                &-picture {
+                    .address-image {
+
+                        img {
+                            position: absolute;
+                            height: 100% !important;
+                        }
+
+                    }
+                }
+
+            }
+
+            .address-picture{
+                height:100%;
+                img{
+                    height:inherit!important;
+                }
+            }
+        }
+
+        &-col2 {
+            width: 40%;
+            background: url(/wordpress/wp-content/themes/humescores/assets/img/reka.png) no-repeat right 75px;
+            background-size: contain;
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,13 @@
+#responsive-menu-button{
+    background: rgba(25, 25, 25, .6)!important;
+    .responsive-menu-box{
+        .responsive-menu-inner{
+
+        background-color:#bc201e;
+        &::before, &::after{
+ background-color:#bc201e;
+        }
+
+        }
+    }
+}

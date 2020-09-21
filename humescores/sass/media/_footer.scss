@@ -1,0 +1,43 @@
+@media(max-width:$small_size){
+
+    .site-footer .contact-container-col1 .contact-form{
+        height:50px;
+flex-direction:column;
+.contact-form-address{
+    width:100%;
+    padding:0;
+    margin-top:20px;
+}
+.address-picture{
+    display:none;
+}
+    }
+.site-footer .contact-container{
+    display:unset;
+    .contact-container-col1{
+        width:100%;
+    }
+}
+
+}
+
+@media(max-width:$medium_size){
+.site-footer .contact-container-col1 .contact-form{
+      
+.contact-form-address{
+    width:100%;
+    padding:0;
+    margin-top:20px;
+}
+.contact-form-picture{
+    width:0%;
+}
+.address-picture{
+    display:none;
+    
+}
+    }
+
+
+
+}

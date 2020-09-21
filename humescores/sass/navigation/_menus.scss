@@ -1,0 +1,100 @@
+.main-navigation {
+
+	width: 100%;
+	z-index: 30;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	top: 0px;
+
+	&:after {
+		content: "";
+		height: 200px;
+		background: red;
+	}
+
+	.logo {
+		padding: 40px;
+
+		&-container {
+
+			background: url(/wordpress/wp-content/themes/humescores/assets/img/logo_bg.svg) center no-repeat;
+			background-size: contain;
+
+			height: 250px;
+			width: 300px;
+		}
+	}
+
+	.menu-menu-container {
+		position: absolute;
+		left: 20%;
+		margin-left: -50px;
+		top: 45%;
+		margin-top: -50px;
+	}
+
+	.menu-right-menu-container,
+	.menu-left-menu-container {
+		margin-top: -60px;
+
+	}
+
+	.menu-left-menu-container {
+		width: 20%;
+	}
+
+	.menu-right-menu-container {
+		width: 30%;
+	}
+
+	// #primary-menu>li:nth-child(5) {
+	// 	margin-left: 400px;
+	// }
+	#right-menu {
+		padding-right: 40px;
+	}
+
+	#left-menu,
+	#right-menu {
+		list-style-type: none;
+		display: flex;
+		margin: 0px;
+		justify-content: space-around;
+
+
+		& li>a:link {
+			text-decoration: none;
+		}
+
+
+	}
+
+
+}
+
+/* Small menu. */
+
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}

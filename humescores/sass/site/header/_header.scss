@@ -1,0 +1,30 @@
+.header-background {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 170px;
+
+    &:after {
+        content: "";
+        background: url(/wordpress/wp-content/themes/humescores/assets/img/top_menu.svg) center no-repeat;
+        z-index: -1;
+        background-size: 100% 100%;
+        position: absolute;
+        left: -20px;
+        right: -20px;
+        bottom: 0;
+        top: 0;
+    }
+}
+
+.container {
+    display: block;
+    width: 100%;
+}
+
+#wp-custom-header-video {
+    width: 100%;
+}

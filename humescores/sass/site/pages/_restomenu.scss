@@ -1,0 +1,95 @@
+.site-header{
+    padding-top:90px;
+    img {
+        width:100%;
+    }
+}
+.main-restomenu-container{
+    background:url(/wordpress/wp-content/themes/humescores/assets/img/bg.jpg) center no-repeat;
+    background-size: cover;
+    margin-top:-160px;
+    widows: 100%;
+    height:100%;
+
+    .offer-section-title-container {
+    margin: 0 auto;
+    padding-top: 350px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+
+        & h1 {
+            margin-bottom: 90px;
+            display: inline-block;
+            padding-left: 50px;
+            padding-right: 50px;
+
+            color: #bc221f;
+            font-family: "Neuton", serif;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 39.92px;
+            text-transform: uppercase;
+            letter-spacing: 0.54px;
+            margin-top: -10px;
+        }
+    }
+
+    & .icon-left,
+    .icon-right {
+        width: 100px;
+    }
+}
+
+.pl-developer{display:none;}
+.sidebar{
+    display:block;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+  
+}
+.dish-menu>h4{
+    text-align:center;
+    clear: both;
+    font-family: "Neuton",
+    serif;
+    font-size: 25px;
+    letter-spacing: .75px;
+    font-weight: 700;
+    color: #bc201e;
+}
+ .menu-dish-menu-container > ul{
+      margin: 0px;
+      padding:0px;
+      li{
+          list-style: none;
+          text-align: center;
+          letter-spacing:1px;
+        
+          a{
+              padding: 12px 22px;
+              display: inline-block;
+              background-color: transparent;
+              color: #262626;
+              font-family: 'PT Serif',
+              serif;
+              font-size: 24px;
+              font-weight: 400;
+              -webkit-transition: all .5s ease;
+              -o-transition: all .5s ease;
+              -moz-transition: all .5s ease;
+              transition: all .5s ease;
+              text-align: center;
+                text-decoration:none;
+              width: 204px;
+              &:hover{
+                  background-color: #bc201e;
+                  color: #fff;
+              }
+          }
+      }
+  }
